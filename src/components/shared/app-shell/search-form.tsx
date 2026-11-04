@@ -67,7 +67,7 @@ export function SearchForm({ ...props }: ComponentProps<"form">) {
             />
             <Input
               id={searchInputId}
-              className="h-10 border-none p-0 shadow-none outline-none focus-visible:ring-0"
+              className="h-10 border-none p-0 shadow-none outline-none focus-visible:ring-0 dark:bg-transparent"
               autoFocus
               placeholder="Type to search..."
               aria-label="Search"
